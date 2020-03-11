@@ -8,10 +8,12 @@ We choose to utilize Ethereum smartcontract to provide trust, each contract will
 
 ## Muldules
 * **Website**, platform for this service, interface between users and blockchain, browser to the file.
-* **Wallat**, Ethereum identity provider and gas fee payer. *Metamusk(Chrome extension) could be a good choice.*
+* **Wallet**, Ethereum identity provider and gas fee payer. *Metamusk(Chrome extension) could be a good choice.*
 * **Smartcontract**, multi-party signature data storage and operation. Note there is a privacy issue in this part, users should be able to choose whether the signature beheviour is private and public which means those data store in the smartcontract is encoded or not.  
 * **IPFS**(TBD), storage for the contract file itself, if appiled, the contract file alone with the hash of this file are both store in IPFS  and ethereum.
 * **ENS**(TBD), UX improvement, to allow people sign files with .eth address.
+
+## 
 
 ## Basic operation process
 ### Sign
@@ -26,3 +28,9 @@ We choose to utilize Ethereum smartcontract to provide trust, each contract will
 
 ## Related examples
 * [Decentraland](https://decentraland.org/)
+
+## Assignment
+* Smartcontract
+* Wallet interaction, research on wallet functions
+* Website front-end
+* Storage in IPFS
