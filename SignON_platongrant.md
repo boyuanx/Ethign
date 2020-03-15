@@ -1,11 +1,9 @@
 # SignON
 
 ## Project Description
-SignON is a multi-party privacy-preserving file signature platform powered by Private Contract VM on PlatON.
-**Signature is to authorize.**
-While e-signature has been widely used in our daily life, the e-signature service provider seems fail to proof the certainty and make it easy to verify for the third party. E-signature service providers like DocuSign and Esign use centralized trust source, which is fail to provide transparency.
-**Transparency is the source of trust, cryptography helps in providing transparency.**
-More specifically we will create:
+SignON is a multi-party privacy-preserving file signature platform powered by Private Contract VM on PlatON.  
+**Signature is to authorize.** While e-signature has been widely used in our daily life, the e-signature service provider seems fail to proof the certainty and make it easy to verify for the third party. E-signature service providers like DocuSign and Esign use centralized trust source, which is fail to provide transparency.  
+**Transparency is the source of trust, cryptography helps in providing transparency.** More specifically we will create:
 - A website platform for users to sign file in the PlatON smart-contract and store in IPFS
 - A website platform for the third-party verifier to explor the contract and verify the signature
 - A private contract deployed on PlatON which provide data-preserving feature to users and easy to verify by a third-party
