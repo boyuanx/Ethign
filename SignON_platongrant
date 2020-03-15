@@ -33,4 +33,25 @@ This is an open source project under GNU LGPL v3. All the defined milestones wil
 
 ## Development Roadmap
 - M1 - 1 week: Release the Architecture draft
-
+![Image text](https://github.com/devrevyanx/Ethign/blob/master/Architecture%20draft.jpg)
+- M2 - 3 weeks: A Minimum Viable Product on PlatON testnet
+  - Two-party file signature smart contract design
+  - Identity interact via wallet and explorar
+  - Store file on IPFS from NodeJS website
+  - Documentations:
+    - Guide: How to sign file in SignON
+    - Design Doc: Privacy explaination in private contract
+- M3 - 4 weeks: Functionality
+  - Documentations:
+    - Guide: How to sign file in SignON between multi-party
+    - Guide: How to verify signature and check the origin file
+  - Users should be able to follow the guide to test full functionality of this application.
+    - Design model for signature reversion cost.
+- M4 - 3 weeks: UX improvement
+  - nodeJS website optimization in logo, buttons, and digits display
+  - Fully working signature interact with smart contract
+      - Different data privacy-preserving strategy support
+  - Fully working storage in IPFS
+  - Fully working signature verification via blockchain browser
+  - Finalize the design docs in M1 & M2
+All the deliveriables for each milestone will be published in the open source repositories.
